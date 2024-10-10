@@ -1,9 +1,11 @@
 THANKS FOR CLICKING !!!!
+
 What are you going to learn with this Kernel?
 Atribute information Analysis.
 Categorical to Continuous/Dummies Easy way
 Machine Learning (Logistic Regression, KNN, SVM, Decision Tree, Random Forest, GradientBoostingClassifier, XGBClassifier, GaussianNB)
 ROC curve
+
 How to understand the problem and see which is the best model for your Dependent Variable
 Precision, Recall, F1, Avg_total Analysis
 Bank Marketing
@@ -25,6 +27,7 @@ Contact: contact communication type (categorical: 'cellular','telephone')
 Month: last contact month of year (categorical: 'jan', 'feb', 'mar', ..., 'nov', 'dec')
 Day_of_week: last contact day of the week (categorical: 'mon','tue','wed','thu','fri')
 Duration: last contact duration, in seconds (numeric). Important note: this attribute highly affects the output target (e.g., if duration=0 then y='no'). Yet, the duration is not known before a call is performed. Also, after the end of the call y is obviously known. Thus, this input should only be included for benchmark purposes and should be discarded if the intention is to have a realistic predictive model.
+
 Other attributes:
 Campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
 Pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric; 999 means client was not previously contacted)
