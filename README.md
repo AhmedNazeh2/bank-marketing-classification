@@ -9,11 +9,13 @@ ROC curve
 How to understand the problem and see which is the best model for your Dependent Variable
 Precision, Recall, F1, Avg_total Analysis
 Bank Marketing
+
 Abstract: The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit (variable y).
 
 Data Set Information: The data is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
 
 Attribute Information:
+
 Bank client data:
 Age (numeric)
 Job : type of job (categorical: 'admin.', 'blue-collar', 'entrepreneur', 'housemaid', 'management', 'retired', 'self-employed', 'services', 'student', 'technician', 'unemployed', 'unknown')
@@ -39,7 +41,9 @@ Cons.price.idx: consumer price index - monthly indicator (numeric)
 Cons.conf.idx: consumer confidence index - monthly indicator (numeric)
 Euribor3m: euribor 3 month rate - daily indicator (numeric)
 Nr.employed: number of employees - quarterly indicator (numeric)
+
 Output variable (desired target):
 y - has the client subscribed a term deposit? (binary: 'yes', 'no')
+
 Source:
 Dataset from : http://archive.ics.uci.edu/ml/datasets/Bank+Marketing#
